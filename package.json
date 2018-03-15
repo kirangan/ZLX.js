@@ -1,0 +1,19 @@
+{
+  "name": "armadatimur",
+  "version": "1.0.0",
+  "description": "aplikasi armada timur indonesia",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "zulfikra l. abdjul, crossnetwork",
+  "license": "ISC",
+  "dependencies": {
+    "crypto-js": "^3.1.9-1",
+    "mysql": "^2.15.0",
+    "node-datetime": "^2.0.6",
+    "node-session": "^1.2.1",
+    "routes": "^2.1.0",
+    "swig": "^1.4.2"
+  }
+}
