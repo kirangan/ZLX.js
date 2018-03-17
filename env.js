@@ -1,10 +1,12 @@
-var connection = {
-    host:"localhost",
-    user:"root",
+exports.database = {
+    host:"",
+    user:"",
     password:'',
-    database:'armatim'
+    database:''
 }
 
-module.exports = {
-    connection
-}
+
+
+
+
+

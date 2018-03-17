@@ -1,11 +1,21 @@
 "use strict";
-const { route, view, run } = require('./packages/server')
+const { route, view, run,api } = require('./config/server')
+
 
 
 // route
-route("/home", function (req, res, session) {
-    view(req, res, './views/index.html')
+route("/index",function(req,res){
+   res.end("helllo") 
 })
+
+
+api("/index",function(req,res){
+    res.end("ini api")
+})
+
+
+
+
 
 // listen
 run(5000, function () {
